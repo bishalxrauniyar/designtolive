@@ -16,7 +16,7 @@
             <a href="#" class="text-black text-2xl"><img src="images/logo.png" alt="Logo"></a>
         </div>
         <!-- Desktop Menu -->
-        <div class="container mx-auto hidden md:flex justify-between items-center ">
+        <div class="container mx-auto hidden md:flex justify-between items-center">
             <a href="#" class="text-black text-2xl ml-44"><img src="images/logo.png" alt="Logo"></a>
             <ul class="flex space-x-6 mr-44">
                 <li><a href="#" class="text-black p-4 hover:border-b-2 hover:border-amber-800">SHOP</a></li>
@@ -25,14 +25,20 @@
                 <li><a href="#" class="text-black p-4 hover:border-b-2 hover:border-amber-800">CONTACT</a></li>
                 <li><a href="#" class="text-gray-800"><i class="text-amber-800 fa-solid fa-cart-shopping"></i></a></li>
             </ul>
-        </div>
+        </div> 
         <!-- Mobile Menu -->
         <div id="mobile-menu" class="hidden flex-col space-y-4 mt-4 md:hidden">
-            <a href="#" class="text-black p-4 hover:border-b-2 hover:border-amber-800">SHOP</a>
-            <a href="#" class="text-black p-4 hover:border-b-2 hover:border-amber-800">WORKSHOP</a>
-            <a href="#" class="text-black p-4 hover:border-b-2 hover:border-amber-800">BLOG</a>
-            <a href="#" class="text-black p-4 hover:border-b-2 hover:border-amber-800">CONTACT</a>
+
+    <ul class="py-2 text-sm text-black dark:text-amber-800" aria-labelledby="dropdownDefaultButton">
+
+      <li><a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-amber-600 dark:hover:text-white">SHOP</a></li>
+      <li><a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-amber-600 dark:hover:text-white">WORKSHOP</a></li>
+      <li><a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-amber-600 dark:hover:text-white">BLOG</a></li>
+      <li><a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-amber-600 dark:hover:text-white">CONTACT</a></li>
+      
+    </ul>
             <a href="#" class="text-gray-800"><i class="text-amber-800 fa-solid fa-cart-shopping"></i></a>
+        
         </div>
     </nav>
     
@@ -42,7 +48,7 @@
             const menu = document.getElementById('mobile-menu');
             menu.classList.toggle('hidden');
         });
-    </script>
+    </script> 
     
 
 
