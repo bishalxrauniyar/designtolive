@@ -32,3 +32,24 @@ basic page
     </div>
 
 </div>
+
+our section
+
+<!-- Our Story Section -->
+<div class="relative md:h-screen h-auto bg-slate-100 flex flex-col justify-center items-center md:mt-0 md:mb-0 md:p-2">
+    <!-- Background Image with Overlay -->
+    <div class="w-full h-full relative">
+        <img src="images/Ceramic2.jpg" alt="hero image" class="w-full h-full object-cover">
+        <div class="absolute inset-0 bg-black opacity-70"></div>
+    </div>
+
+    <!-- Centered Text Content -->
+    <div class="absolute flex flex-col items-center justify-center text-center space-y-6 px-6">
+        <h1 class="text-4xl font-bold text-white">Our Story</h1>
+        <p class="text-sm md:text-xl text-slate-200">
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+            took a galley of type and scrambled it to make a type specimen book.
+        </p>
+    </div>
+
+</div>
